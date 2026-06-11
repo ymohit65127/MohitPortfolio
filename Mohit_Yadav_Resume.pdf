@@ -1,0 +1,197 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R 4 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 5 0 R /F2 6 0 R /F3 7 0 R >> >> /Contents 8 0 R >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 5 0 R /F2 6 0 R /F3 7 0 R >> >> /Contents 9 0 R >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding >>
+endobj
+8 0 obj
+<< /Length 6780 >>
+stream
+BT /F2 22 Tf 0.122 0.235 0.373 rg 54 798 Td (MOHIT YADAV) Tj ET
+BT /F2 10.5 Tf 0.184 0.353 0.541 rg 54 779 Td (Senior Software Engineer    |    Full-Stack Developer) Tj ET
+BT /F1 8.5 Tf 0.4 0.4 0.4 rg 54 763 Td (Faridabad, Haryana, India     |     +91 96508 25043     |     YMOHIT65127@GMAIL.COM) Tj ET
+BT /F1 8.5 Tf 0.4 0.4 0.4 rg 54 751 Td (linkedin.com/in/mohit-yadav-a86422215     |     github.com/ymohit65127) Tj ET
+0.122 0.235 0.373 rg 54 743 487 1.6 re f
+BT /F2 11 Tf 0.122 0.235 0.373 rg 54 725 Td (PROFESSIONAL SUMMARY) Tj ET
+0.184 0.353 0.541 rg 54 720 487 0.7 re f
+BT /F1 9.5 Tf 0.13 0.13 0.13 rg 54 706 Td (Senior Software Engineer and Full-Stack Developer with over 5 years of hands-on experience) Tj ET
+BT /F1 9.5 Tf 0.13 0.13 0.13 rg 54 693.5 Td (building scalable web and SaaS applications across PHP/Laravel back-ends and modern) Tj ET
+BT /F1 9.5 Tf 0.13 0.13 0.13 rg 54 681 Td (JavaScript front-ends \(Angular, React, Next.js, Node.js, NestJS\). Proven record of shipping) Tj ET
+BT /F1 9.5 Tf 0.13 0.13 0.13 rg 54 668.5 Td (20+ production projects across fintech, edtech, travel, CRM, and enterprise/government) Tj ET
+BT /F1 9.5 Tf 0.13 0.13 0.13 rg 54 656 Td (domains - including multi-tenant SaaS platforms, ERPs, and Single Sign-On \(SSO\) systems.) Tj ET
+BT /F1 9.5 Tf 0.13 0.13 0.13 rg 54 643.5 Td (Skilled at leading and mentoring development teams, driving Agile delivery, conducting) Tj ET
+BT /F1 9.5 Tf 0.13 0.13 0.13 rg 54 631 Td (code reviews, and integrating 50+ third-party APIs. Recognised with multiple performance) Tj ET
+BT /F1 9.5 Tf 0.13 0.13 0.13 rg 54 618.5 Td (awards for technical excellence and consistent delivery.) Tj ET
+BT /F2 11 Tf 0.122 0.235 0.373 rg 54 599 Td (CORE SKILLS & TECHNOLOGIES) Tj ET
+0.184 0.353 0.541 rg 54 594 487 0.7 re f
+BT /F2 9 Tf 0.184 0.353 0.541 rg 54 581 Td (Languages:) Tj ET
+BT /F1 9 Tf 0.13 0.13 0.13 rg 156 581 Td (PHP, JavaScript, TypeScript, SQL, HTML5, CSS3) Tj ET
+BT /F2 9 Tf 0.184 0.353 0.541 rg 54 569 Td (Back-end:) Tj ET
+BT /F1 9 Tf 0.13 0.13 0.13 rg 156 569 Td (Laravel, Node.js, NestJS, Express, RESTful APIs, MVC architecture) Tj ET
+BT /F2 9 Tf 0.184 0.353 0.541 rg 54 557 Td (Front-end:) Tj ET
+BT /F1 9 Tf 0.13 0.13 0.13 rg 156 557 Td (Angular, React, Next.js, jQuery, AJAX, Bootstrap, Blade Templating) Tj ET
+BT /F2 9 Tf 0.184 0.353 0.541 rg 54 545 Td (Databases:) Tj ET
+BT /F1 9 Tf 0.13 0.13 0.13 rg 156 545 Td (MySQL - schema design, query optimisation, indexing, data security) Tj ET
+BT /F2 9 Tf 0.184 0.353 0.541 rg 54 533 Td (APIs & Integrations:) Tj ET
+BT /F1 9 Tf 0.13 0.13 0.13 rg 156 533 Td (SSO, payment gateways, biometric / RFID, SMS & email APIs \(50+ integrations\)) Tj ET
+BT /F2 9 Tf 0.184 0.353 0.541 rg 54 521 Td (Tools & Practices:) Tj ET
+BT /F1 9 Tf 0.13 0.13 0.13 rg 156 521 Td (Git & GitHub, code reviews, Agile / Scrum, sprint planning, multi-tenant SaaS) Tj ET
+BT /F2 9 Tf 0.184 0.353 0.541 rg 54 509 Td (AI Tools:) Tj ET
+BT /F1 9 Tf 0.13 0.13 0.13 rg 156 509 Td (Claude, ChatGPT, AI-assisted development & code review, prompt engineering) Tj ET
+BT /F2 9 Tf 0.184 0.353 0.541 rg 54 497 Td (Leadership:) Tj ET
+BT /F1 9 Tf 0.13 0.13 0.13 rg 156 497 Td (Team mentoring, project estimation, resource planning, stakeholder collaboration) Tj ET
+BT /F2 9 Tf 0.184 0.353 0.541 rg 54 485 Td (Domains:) Tj ET
+BT /F1 9 Tf 0.13 0.13 0.13 rg 156 485 Td (Fintech, EdTech, Travel, CRM, ERP, Government & Enterprise systems) Tj ET
+BT /F2 11 Tf 0.122 0.235 0.373 rg 54 470 Td (PROFESSIONAL EXPERIENCE) Tj ET
+0.184 0.353 0.541 rg 54 465 487 0.7 re f
+BT /F2 10.5 Tf 0.13 0.13 0.13 rg 54 451 Td (Senior Software Engineer) Tj ET
+BT /F2 9 Tf 0.184 0.353 0.541 rg 460 451 Td (Aug 2025 - Present) Tj ET
+BT /F3 9 Tf 0.4 0.4 0.4 rg 54 438 Td (Mobilise App Lab Pvt. Ltd. - India) Tj ET
+0.184 0.353 0.541 rg 55.5 425.8 2.4 2.4 re f
+BT /F1 9.5 Tf 0.13 0.13 0.13 rg 68 425 Td (Build production features end-to-end across PHP/Laravel back-ends and modern) Tj ET
+BT /F1 9.5 Tf 0.13 0.13 0.13 rg 68 413 Td (JavaScript front-ends \(Angular, React, Next.js\).) Tj ET
+0.184 0.353 0.541 rg 55.5 396.8 2.4 2.4 re f
+BT /F1 9.5 Tf 0.13 0.13 0.13 rg 68 396 Td (Develop scalable Node.js and NestJS services for multi-tenant SaaS platforms with) Tj ET
+BT /F1 9.5 Tf 0.13 0.13 0.13 rg 68 384 Td (strong data isolation and performance.) Tj ET
+0.184 0.353 0.541 rg 55.5 367.8 2.4 2.4 re f
+BT /F1 9.5 Tf 0.13 0.13 0.13 rg 68 367 Td (Architected a multi-school ERP serving institutions including DPS, NKBPS, and NPTI -) Tj ET
+BT /F1 9.5 Tf 0.13 0.13 0.13 rg 68 355 Td (student, staff, academic, and operations modules.) Tj ET
+0.184 0.353 0.541 rg 55.5 338.8 2.4 2.4 re f
+BT /F1 9.5 Tf 0.13 0.13 0.13 rg 68 338 Td (Designed and delivered a multi-tenant attendance platform integrating biometric) Tj ET
+BT /F1 9.5 Tf 0.13 0.13 0.13 rg 68 326 Td (\(fingerprint\) and RFID-based check-in.) Tj ET
+0.184 0.353 0.541 rg 55.5 309.8 2.4 2.4 re f
+BT /F1 9.5 Tf 0.13 0.13 0.13 rg 68 309 Td (Built a multi-tenant Single Sign-On \(SSO\) system enabling unified authentication) Tj ET
+BT /F1 9.5 Tf 0.13 0.13 0.13 rg 68 297 Td (across multiple education products from a single login.) Tj ET
+0.184 0.353 0.541 rg 55.5 280.8 2.4 2.4 re f
+BT /F1 9.5 Tf 0.13 0.13 0.13 rg 68 280 Td (Partner with product, QA, and DevOps to ship secure, performant releases on tight) Tj ET
+BT /F1 9.5 Tf 0.13 0.13 0.13 rg 68 268 Td (delivery cycles.) Tj ET
+BT /F2 10.5 Tf 0.13 0.13 0.13 rg 54 246 Td (Senior Laravel Developer / Technical Team Lead) Tj ET
+BT /F2 9 Tf 0.184 0.353 0.541 rg 455 246 Td (Sep 2022 - Aug 2025) Tj ET
+BT /F3 9 Tf 0.4 0.4 0.4 rg 54 233 Td (Netleaf Infosoft Pvt. Ltd. - Gurugram, Haryana) Tj ET
+0.184 0.353 0.541 rg 55.5 220.8 2.4 2.4 re f
+BT /F1 9.5 Tf 0.13 0.13 0.13 rg 68 220 Td (Led the design of scalable Laravel applications and mentored junior developers,) Tj ET
+BT /F1 9.5 Tf 0.13 0.13 0.13 rg 68 208 Td (promoting best coding practices.) Tj ET
+0.184 0.353 0.541 rg 55.5 191.8 2.4 2.4 re f
+BT /F1 9.5 Tf 0.13 0.13 0.13 rg 68 191 Td (Owned timelines, resource allocation, and deliverable quality across multiple) Tj ET
+BT /F1 9.5 Tf 0.13 0.13 0.13 rg 68 179 Td (concurrent client projects.) Tj ET
+0.184 0.353 0.541 rg 55.5 162.8 2.4 2.4 re f
+BT /F1 9.5 Tf 0.13 0.13 0.13 rg 68 162 Td (Conducted thorough code reviews that raised overall code quality and accelerated) Tj ET
+BT /F1 9.5 Tf 0.13 0.13 0.13 rg 68 150 Td (team skill growth.) Tj ET
+0.184 0.353 0.541 rg 55.5 133.8 2.4 2.4 re f
+BT /F1 9.5 Tf 0.13 0.13 0.13 rg 68 133 Td (Managed integration of numerous third-party APIs - payment gateways and) Tj ET
+BT /F1 9.5 Tf 0.13 0.13 0.13 rg 68 121 Td (communication platforms - for reliable data flow.) Tj ET
+0.184 0.353 0.541 rg 55.5 104.8 2.4 2.4 re f
+BT /F1 9.5 Tf 0.13 0.13 0.13 rg 68 104 Td (Drove daily stand-ups and sprint planning; partnered with UX/UI and product teams) Tj ET
+BT /F1 9.5 Tf 0.13 0.13 0.13 rg 68 92 Td (to align engineering with business goals.) Tj ET
+0.184 0.353 0.541 rg 55.5 75.8 2.4 2.4 re f
+BT /F1 9.5 Tf 0.13 0.13 0.13 rg 68 75 Td (Diagnosed complex technical issues and enforced security best practices across) Tj ET
+BT /F1 9.5 Tf 0.13 0.13 0.13 rg 68 63 Td (the codebase.) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Length 6175 >>
+stream
+BT /F2 10.5 Tf 0.13 0.13 0.13 rg 54 798 Td (Professional Upskilling & MCA Completion) Tj ET
+BT /F2 9 Tf 0.184 0.353 0.541 rg 455 798 Td (Nov 2020 - Sep 2022) Tj ET
+BT /F3 9 Tf 0.4 0.4 0.4 rg 54 785 Td (Career Development Period - Faridabad, Haryana) Tj ET
+0.184 0.353 0.541 rg 55.5 772.8 2.4 2.4 re f
+BT /F1 9.5 Tf 0.13 0.13 0.13 rg 68 772 Td (Completed the Master of Computer Applications \(MCA\) while deepening expertise in) Tj ET
+BT /F1 9.5 Tf 0.13 0.13 0.13 rg 68 760 Td (advanced Laravel, software architecture, RESTful API design, and database optimisation.) Tj ET
+BT /F2 10.5 Tf 0.13 0.13 0.13 rg 54 738 Td (PHP Developer) Tj ET
+BT /F2 9 Tf 0.184 0.353 0.541 rg 454 738 Td (Aug 2019 - Nov 2020) Tj ET
+BT /F3 9 Tf 0.4 0.4 0.4 rg 54 725 Td (Learnov8 - Faridabad, Haryana) Tj ET
+0.184 0.353 0.541 rg 55.5 712.8 2.4 2.4 re f
+BT /F1 9.5 Tf 0.13 0.13 0.13 rg 68 712 Td (Built and optimised website features that improved user experience and reduced) Tj ET
+BT /F1 9.5 Tf 0.13 0.13 0.13 rg 68 700 Td (page-load times.) Tj ET
+0.184 0.353 0.541 rg 55.5 683.8 2.4 2.4 re f
+BT /F1 9.5 Tf 0.13 0.13 0.13 rg 68 683 Td (Identified and resolved runtime errors through systematic debugging and testing,) Tj ET
+BT /F1 9.5 Tf 0.13 0.13 0.13 rg 68 671 Td (ensuring stable operation and minimal downtime.) Tj ET
+BT /F2 11 Tf 0.122 0.235 0.373 rg 54 647 Td (KEY PROJECTS) Tj ET
+0.184 0.353 0.541 rg 54 642 487 0.7 re f
+0.184 0.353 0.541 rg 55.5 628.8 2.4 2.4 re f
+BT 0.13 0.13 0.13 rg /F2 10 Tf 68 628 Td (School ERP Suite) Tj 0.4 0.4 0.4 rg /F3 9 Tf ( - EdTech / Multi-school) Tj ET
+BT /F1 9.5 Tf 0.13 0.13 0.13 rg 68 615 Td (Architected a multi-school ERP currently serving DPS, NKBPS, and NPTI - modules for) Tj ET
+BT /F1 9.5 Tf 0.13 0.13 0.13 rg 68 603 Td (student records, staff, academics, exams, and operations.) Tj ET
+0.184 0.353 0.541 rg 55.5 587.8 2.4 2.4 re f
+BT 0.13 0.13 0.13 rg /F2 10 Tf 68 587 Td (Global Attendance System) Tj 0.4 0.4 0.4 rg /F3 9 Tf ( - Multi-tenant SaaS) Tj ET
+BT /F1 9.5 Tf 0.13 0.13 0.13 rg 68 574 Td (Designed a multi-tenant attendance platform integrating biometric \(fingerprint\) and) Tj ET
+BT /F1 9.5 Tf 0.13 0.13 0.13 rg 68 562 Td (RFID check-in, serving multiple organisations from a single deployment.) Tj ET
+0.184 0.353 0.541 rg 55.5 546.8 2.4 2.4 re f
+BT 0.13 0.13 0.13 rg /F2 10 Tf 68 546 Td (EDUPRO) Tj 0.4 0.4 0.4 rg /F3 9 Tf ( - Multi-tenant SSO) Tj ET
+BT /F1 9.5 Tf 0.13 0.13 0.13 rg 68 533 Td (Built a Single Sign-On \(SSO\) platform enabling unified, secure authentication across) Tj ET
+BT /F1 9.5 Tf 0.13 0.13 0.13 rg 68 521 Td (multiple education applications from a single login.) Tj ET
+0.184 0.353 0.541 rg 55.5 505.8 2.4 2.4 re f
+BT 0.13 0.13 0.13 rg /F2 10 Tf 68 505 Td (Coveryou) Tj 0.4 0.4 0.4 rg /F3 9 Tf ( - Fintech / Insurance) Tj ET
+BT /F1 9.5 Tf 0.13 0.13 0.13 rg 68 492 Td (Contributed to an insurance-focused fintech platform; built core modules and) Tj ET
+BT /F1 9.5 Tf 0.13 0.13 0.13 rg 68 480 Td (integrated payment and verification APIs supporting secure policy workflows.) Tj ET
+0.184 0.353 0.541 rg 55.5 464.8 2.4 2.4 re f
+BT 0.13 0.13 0.13 rg /F2 10 Tf 68 464 Td (LoanUstaad) Tj 0.4 0.4 0.4 rg /F3 9 Tf ( - Fintech / Lending) Tj ET
+BT /F1 9.5 Tf 0.13 0.13 0.13 rg 68 451 Td (Developed lending-workflow features and third-party integrations powering loan) Tj ET
+BT /F1 9.5 Tf 0.13 0.13 0.13 rg 68 439 Td (application, eligibility, and processing journeys.) Tj ET
+0.184 0.353 0.541 rg 55.5 423.8 2.4 2.4 re f
+BT 0.13 0.13 0.13 rg /F2 10 Tf 68 423 Td (BalmyTrip) Tj 0.4 0.4 0.4 rg /F3 9 Tf ( - Travel Booking) Tj ET
+BT /F1 9.5 Tf 0.13 0.13 0.13 rg 68 410 Td (Built travel-booking functionality with dynamic jQuery/AJAX interfaces and) Tj ET
+BT /F1 9.5 Tf 0.13 0.13 0.13 rg 68 398 Td (third-party travel and payment API integrations.) Tj ET
+0.184 0.353 0.541 rg 55.5 382.8 2.4 2.4 re f
+BT 0.13 0.13 0.13 rg /F2 10 Tf 68 382 Td (CRM Application) Tj 0.4 0.4 0.4 rg /F3 9 Tf ( - Enterprise CRM) Tj ET
+BT /F1 9.5 Tf 0.13 0.13 0.13 rg 68 369 Td (Delivered CRM modules for employee data, attendance, task tracking, and) Tj ET
+BT /F1 9.5 Tf 0.13 0.13 0.13 rg 68 357 Td (customer-interaction management, streamlining internal workflows.) Tj ET
+0.184 0.353 0.541 rg 55.5 341.8 2.4 2.4 re f
+BT 0.13 0.13 0.13 rg /F2 10 Tf 68 341 Td (Government Employee Management System) Tj 0.4 0.4 0.4 rg /F3 9 Tf ( - GovTech) Tj ET
+BT /F1 9.5 Tf 0.13 0.13 0.13 rg 68 328 Td (Enhanced a government employee-management initiative with attendance,) Tj ET
+BT /F1 9.5 Tf 0.13 0.13 0.13 rg 68 316 Td (task-management, and payroll modules, improving operational efficiency.) Tj ET
+BT /F2 11 Tf 0.122 0.235 0.373 rg 54 294 Td (EDUCATION) Tj ET
+0.184 0.353 0.541 rg 54 289 487 0.7 re f
+0.184 0.353 0.541 rg 55.5 275.8 2.4 2.4 re f
+BT /F2 9.5 Tf 0.13 0.13 0.13 rg 68 275 Td (Master of Computer Applications \(MCA\)) Tj ET
+BT /F1 9 Tf 0.4 0.4 0.4 rg 68 263 Td (Indira Gandhi National Open University \(IGNOU\), Faridabad     |     2018 - 2022) Tj ET
+0.184 0.353 0.541 rg 55.5 245.8 2.4 2.4 re f
+BT /F2 9.5 Tf 0.13 0.13 0.13 rg 68 245 Td (Bachelor of Computer Applications \(BCA\)) Tj ET
+BT /F1 9 Tf 0.4 0.4 0.4 rg 68 233 Td (Maharshi Dayanand University, Faridabad     |     2015 - 2018) Tj ET
+BT /F2 11 Tf 0.122 0.235 0.373 rg 54 212 Td (AWARDS & RECOGNITION) Tj ET
+0.184 0.353 0.541 rg 54 207 487 0.7 re f
+0.184 0.353 0.541 rg 55.5 193.8 2.4 2.4 re f
+BT 0.13 0.13 0.13 rg /F2 9.5 Tf 68 193 Td (Rising Star Award) Tj /F1 9.5 Tf ( - awarded twice for exceptional technical contribution and skill growth.) Tj ET
+0.184 0.353 0.541 rg 55.5 177.8 2.4 2.4 re f
+BT 0.13 0.13 0.13 rg /F2 9.5 Tf 68 177 Td (Star Performer Award) Tj /F1 9.5 Tf ( - recognised for outstanding delivery and consistency.) Tj ET
+0.184 0.353 0.541 rg 55.5 161.8 2.4 2.4 re f
+BT 0.13 0.13 0.13 rg /F2 9.5 Tf 68 161 Td (Runner-Up Award) Tj /F1 9.5 Tf ( - presented to the entire team for outstanding collective effort and dedication.) Tj ET
+BT /F2 11 Tf 0.122 0.235 0.373 rg 54 140 Td (ADDITIONAL INFORMATION) Tj ET
+0.184 0.353 0.541 rg 54 135 487 0.7 re f
+BT 0.184 0.353 0.541 rg /F2 9.5 Tf 54 121 Td (Languages:  ) Tj 0.13 0.13 0.13 rg /F1 9.5 Tf (Hindi \(Native\)     |     English \(Conversational\)) Tj ET
+BT 0.184 0.353 0.541 rg /F2 9.5 Tf 54 107 Td (Interests:  ) Tj 0.13 0.13 0.13 rg /F1 9.5 Tf (Pencil sketching - sharpens creativity, focus, and observational detail.) Tj ET
+endstream
+endobj
+xref
+0 10
+0000000000 65535 f
+0000000009 00000 n
+0000000058 00000 n
+0000000121 00000 n
+0000000267 00000 n
+0000000413 00000 n
+0000000510 00000 n
+0000000612 00000 n
+0000000717 00000 n
+0000007549 00000 n
+trailer
+<< /Size 10 /Root 1 0 R >>
+startxref
+13776
+%%EOF

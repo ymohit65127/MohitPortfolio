@@ -3,7 +3,7 @@
 This file tracks everything that is **not yet done** or could be improved.
 When continuing on another machine, start here.
 
-Last updated: 2026-06-20
+Last updated: 2026-10-11
 
 ---
 
@@ -11,12 +11,12 @@ Last updated: 2026-06-20
 
 These must be done for the site to work 100% in production.
 
-- [ ] **Activate the contact form.**
-  In `index.html`, the form `action` is still the placeholder
-  `https://formspree.io/f/YOUR_FORM_ID`. Sign up at https://formspree.io,
-  create a form pointing to `YMOHIT65127@GMAIL.COM`, and paste the real ID.
+- [ ] **Activate the contact form (Google Apps Script).**
+  Backend code is in `apps-script/Code.gs`. Deploy it as a web app from a
+  Google Sheet owned by `ymohit65127@gmail.com` and paste the `/exec` URL into
+  the form `action` in `index.html` (currently `YOUR_SCRIPT_URL`).
   Until then the form falls back to opening the visitor's email client.
-  (See README → "Activate the contact form".)
+  (See README → section 1.)
 
 - [ ] **Set absolute Open Graph URLs.**
   In `index.html`, the three social-preview tags (`og:url`, `og:image`,
@@ -25,8 +25,7 @@ These must be done for the site to work 100% in production.
   `https://ymohit65127.github.io/MohitPortfolio/og-image.png`.
   Then refresh the cache via the LinkedIn Post Inspector (link in README).
 
-- [ ] **Enable GitHub Pages** (or deploy to Netlify/Vercel).
-  Repo → Settings → Pages → Source: `main` / root → Save.
+- [x] **Enable GitHub Pages** — done 2026-10-11.
   Live URL: `https://ymohit65127.github.io/MohitPortfolio/`.
 
 ---
@@ -52,7 +51,7 @@ These must be done for the site to work 100% in production.
       focus-visible states, and `aria` labels on all interactive elements.
 - [ ] **Performance** — self-host Google Fonts to remove render-blocking request;
       add `loading="lazy"` to any future images; minify CSS/JS for production.
-- [ ] **Form spam protection** — Formspree honeypot / reCAPTCHA.
+- [x] **Form spam protection** — honeypot field added (2026-10-11).
 - [ ] **PWA** — add a `manifest.json` + service worker for installable/offline.
 - [ ] **CI/CD** — GitHub Action to auto-deploy on push (if not using Pages default).
 

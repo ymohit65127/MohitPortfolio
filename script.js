@@ -122,42 +122,47 @@ const navObserver = new IntersectionObserver((entries) => {
 }, { rootMargin: '-45% 0px -50% 0px' });
 sections.forEach(s => navObserver.observe(s));
 
-/* ====== Contact form (AJAX submit via Formspree) ====== */
+/* ====== Contact form (POST to Google Apps Script → Sheet log + email) ====== */
 const form = document.getElementById('contactForm');
 if (form) {
   const status = document.getElementById('formStatus');
   const submitBtn = document.getElementById('cf-submit');
+  const FALLBACK_EMAIL = 'ymohit65127@gmail.com';
+
   form.addEventListener('submit', async (e) => {
     e.preventDefault();
-    // If the Formspree ID hasn't been set yet, fall back to a mailto: draft.
-    if (form.action.includes('YOUR_FORM_ID')) {
-      const d = new FormData(form);
-      const body = `Name: ${d.get('name')}%0D%0AEmail: ${d.get('email')}%0D%0A%0D%0A${(d.get('message')||'')}`;
-      window.location.href = `mailto:YMOHIT65127@GMAIL.COM?subject=${encodeURIComponent(d.get('subject') || 'Portfolio enquiry')}&body=${body}`;
+    const d = new FormData(form);
+
+    // If the endpoint hasn't been configured yet, fall back to a mailto: draft.
+    if (!form.action || form.action.includes('YOUR_SCRIPT_URL')) {
+      const body = `Name: ${d.get('name')}%0D%0AEmail: ${d.get('email')}%0D%0A%0D%0A${(d.get('message') || '')}`;
+      window.location.href = `mailto:${FALLBACK_EMAIL}?subject=${encodeURIComponent(d.get('subject') || 'Portfolio enquiry')}&body=${body}`;
       status.textContent = 'Opening your email app…';
       status.className = 'form-status ok';
       return;
     }
+
+    d.append('page', location.href);
+    d.append('ua', navigator.userAgent);
+
     submitBtn.disabled = true;
     const original = submitBtn.textContent;
     submitBtn.textContent = 'Sending…';
     status.textContent = '';
     status.className = 'form-status';
     try {
-      const res = await fetch(form.action, {
-        method: 'POST',
-        body: new FormData(form),
-        headers: { Accept: 'application/json' },
-      });
-      if (res.ok) {
+      // No custom headers → "simple" CORS request, which Apps Script web apps accept.
+      const res = await fetch(form.action, { method: 'POST', body: d });
+      const data = await res.json().catch(() => ({}));
+      if (res.ok && data.ok) {
         form.reset();
         status.textContent = '✓ Thanks! Your message has been sent.';
         status.className = 'form-status ok';
       } else {
-        throw new Error('Server error');
+        throw new Error(data.error || 'Server error');
       }
     } catch (err) {
-      status.textContent = '✗ Something went wrong. Please email me directly.';
+      status.innerHTML = `✗ Something went wrong. Please email me at <a href="mailto:${FALLBACK_EMAIL}">${FALLBACK_EMAIL}</a>.`;
       status.className = 'form-status err';
     } finally {
       submitBtn.disabled = false;

@@ -301,7 +301,9 @@
         <h2 class="contact__title">Let's build something <span class="gradient-text">great</span>.</h2>
         <p class="contact__desc">Open to senior &amp; lead engineering roles, freelance projects, and collaborations. Drop a message below or email me directly.</p>
 
-        <form class="contact-form" id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <form class="contact-form" id="contactForm" action="YOUR_SCRIPT_URL" method="POST">
+          <!-- Honeypot: hidden from humans, bots fill it and get silently dropped -->
+          <input type="text" name="_gotcha" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
           <div class="form-row">
             <div class="field">
               <input type="text" name="name" id="cf-name" required placeholder=" " />

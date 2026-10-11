@@ -13,27 +13,40 @@ portfolio/
 
 ---
 
-## 1. Activate the contact form (5 minutes, free)
+## 1. Contact form — Google Sheet log + email (free)
 
-The form works out of the box in **fallback mode**: clicking *Send* opens the
-visitor's email app with the message pre-filled to you. To receive submissions
-directly in your inbox (no email app needed), connect **Formspree**:
+The form POSTs to a **Google Apps Script web app** bound to a Google Sheet.
+Every submission is appended as a row in the sheet (your log) and emailed to
+`ymohit65127@gmail.com`. No third-party form service, no monthly cap
+(Gmail allows ~100 emails/day from a free account).
 
-1. Go to **https://formspree.io** and sign up (free tier = 50 submissions/month).
-2. Create a new form, set the notification email to `YMOHIT65127@GMAIL.COM`.
-3. Formspree gives you an endpoint like `https://formspree.io/f/abcd1234`.
-4. Open `index.html`, find this line (in the contact section):
+Until the script URL is set, the form falls back to opening the visitor's
+email app with the message pre-filled.
 
-   ```html
-   <form class="contact-form" id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-   ```
+### Setup (one time, ~10 minutes)
 
-   Replace `YOUR_FORM_ID` with your real ID, e.g. `action="https://formspree.io/f/abcd1234"`.
-5. Done. Submissions now arrive in your inbox and show a success message on the page.
+1. Create a new Google Sheet (https://sheets.new) while logged in as
+   `ymohit65127@gmail.com`. Name it e.g. **Portfolio Contact Submissions**.
+2. In the sheet: **Extensions → Apps Script**. Delete the default code and paste
+   the contents of [`apps-script/Code.gs`](apps-script/Code.gs). Save.
+3. **Deploy → New deployment → ⚙ Select type → Web app**
+   - Description: `portfolio contact`
+   - Execute as: **Me**
+   - Who has access: **Anyone**
+   - Click **Deploy**, then **Authorize access** and allow the permissions
+     (Sheets + send email as you). If Google shows "unverified app", click
+     *Advanced → Go to project (unsafe)* — it's your own script.
+4. Copy the **Web app URL** (ends in `/exec`).
+5. In `index.html`, replace `YOUR_SCRIPT_URL` in the form's `action` with that URL.
+6. Commit & push. Test the live form; a row should appear in the sheet and an
+   email should land in your inbox within a few seconds.
 
-> Other drop-in options that use the same `action="..."` pattern: **Web3Forms**,
-> **Getform**, or **Netlify Forms** (if you deploy on Netlify, add `netlify` to the
-> `<form>` tag instead of a Formspree action).
+> **Updating the script later:** after editing `Code.gs`, use
+> **Deploy → Manage deployments → ✎ Edit → Version: New version → Deploy**.
+> The `/exec` URL stays the same.
+
+### Spam protection
+A hidden honeypot field (`_gotcha`) is dropped server-side if filled.
 
 ---
 

@@ -41,9 +41,21 @@ email app with the message pre-filled.
 6. Commit & push. Test the live form; a row should appear in the sheet and an
    email should land in your inbox within a few seconds.
 
-> **Updating the script later:** after editing `Code.gs`, use
-> **Deploy → Manage deployments → ✎ Edit → Version: New version → Deploy**.
-> The `/exec` URL stays the same.
+### Current deployment (done 2026-10-11)
+
+| | |
+|---|---|
+| Sheet (the log) | https://docs.google.com/spreadsheets/d/1KKfhqwV6BufHjm2uM2PYm7hCSOtwwRXX-rQivIjc47c |
+| Script editor | https://script.google.com/d/1cBHqDfpb2T4voXEPE-7HtH4QdX0GuDBn7DotJBpPRTQC8cpnKIH2hSQ5/edit |
+| Deployment ID | `AKfycbzmw9pZZ6rc4d8o_f5_PSNNiiZ1TcLbbxVBWCc2kjEMy6fJmR7eFSw2l-GEKRG_W6Z1wA` |
+
+> **Updating the script later:** edit `apps-script/Code.gs`, then either
+> **Deploy → Manage deployments → ✎ Edit → Version: New version → Deploy** in the
+> editor, or from the terminal (`npm i -g @google/clasp`, `clasp login`):
+> ```bash
+> cd apps-script && clasp push -f && clasp update-deployment AKfycbzmw9pZZ6rc4d8o_f5_PSNNiiZ1TcLbbxVBWCc2kjEMy6fJmR7eFSw2l-GEKRG_W6Z1wA
+> ```
+> Always update the existing deployment; a *new* deployment gets a new `/exec` URL.
 
 ### Spam protection
 A hidden honeypot field (`_gotcha`) is dropped server-side if filled.

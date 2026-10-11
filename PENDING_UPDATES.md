@@ -11,7 +11,7 @@ Last updated: 2026-10-11
 
 These must be done for the site to work 100% in production.
 
-- [ ] **Activate the contact form (Google Apps Script).**
+- [x] **Activate the contact form (Google Apps Script).** Done 2026-10-11, live.
   Backend code is in `apps-script/Code.gs`. Deploy it as a web app from a
   Google Sheet owned by `ymohit65127@gmail.com` and paste the `/exec` URL into
   the form `action` in `index.html` (currently `YOUR_SCRIPT_URL`).
